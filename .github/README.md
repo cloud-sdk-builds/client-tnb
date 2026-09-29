@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-tnb`](https://www.npmjs.com/package/@aws-sdk/client-tnb/v/3.1141.0).
+[`@aws-sdk/client-tnb`](https://www.npmjs.com/package/@aws-sdk/client-tnb/v/3.1142.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-tnb - [https://cloud-sdk-builds.github.io/?sdk=client-tnb](https://cloud-sdk-builds.github.io/?sdk=client-tnb)
-- @aws-sdk/client-tnb v3.1141.0 - [https://cloud-sdk-builds.github.io/?sdk=client-tnb&version=3.1141.0](https://cloud-sdk-builds.github.io/?sdk=client-tnb&version=3.1141.0)
+- @aws-sdk/client-tnb v3.1142.0 - [https://cloud-sdk-builds.github.io/?sdk=client-tnb&version=3.1142.0](https://cloud-sdk-builds.github.io/?sdk=client-tnb&version=3.1142.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1141.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1142.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-vEaX3+6jnq8k/aLHOsfqFxBCoCrhz3LPJmYB4u24S0/5aFUts+rs9GI7HVwbSWpY
+sha384-bLy/9w4NpY/9HBktRYZTLqGg+BBUVdQ/BmjDxHPjr0wCQ3p7g6mIAF1Q/tbU4uNJ
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-tnb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1141.0/index.min.mjs"
+            "@aws-sdk/client-tnb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1142.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1141.0/index.min.mjs": "sha384-vEaX3+6jnq8k/aLHOsfqFxBCoCrhz3LPJmYB4u24S0/5aFUts+rs9GI7HVwbSWpY"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1142.0/index.min.mjs": "sha384-bLy/9w4NpY/9HBktRYZTLqGg+BBUVdQ/BmjDxHPjr0wCQ3p7g6mIAF1Q/tbU4uNJ"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-tnb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1141.0/index.min.mjs"
+                        "@aws-sdk/client-tnb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1142.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1141.0/index.min.mjs": "sha384-vEaX3+6jnq8k/aLHOsfqFxBCoCrhz3LPJmYB4u24S0/5aFUts+rs9GI7HVwbSWpY"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-tnb@3.1142.0/index.min.mjs": "sha384-bLy/9w4NpY/9HBktRYZTLqGg+BBUVdQ/BmjDxHPjr0wCQ3p7g6mIAF1Q/tbU4uNJ"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1141.0`)
+* Always pin to a specific version (`@3.1142.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-tnb/blob/refs/tags/3.1141.0/LICENSE
+https://github.com/cloud-sdk-builds/client-tnb/blob/refs/tags/3.1142.0/LICENSE
 ```
 
 ---
